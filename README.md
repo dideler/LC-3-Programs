@@ -4,21 +4,21 @@ Little Computer 3 Programs
 Sample programs for the [LC-3 simulator](http://en.wikipedia.org/wiki/LC-3).
 Great as an introduction to assembly language or as a teaching reference.
 
-If you have any you would like to add, see below!
+This project welcomes contributors!
 
-Learning LC-3
--------------
+Getting Started
+---------------
+
+### Learning LC-3
 
 Quickly get on your feet by reading these overview [slides][lc3-slides].
 Property of University of Texas at Austin.
 
-Download
---------
+### Download
 
 You can download LC-3 for Windows or UNIX [here][lc3-download].
 
-LC-3 Instructions
------------------
+### LC-3 Instructions
 
 The Instruction Set Architecture (ISA) of the LC-3 can be found [here][lc3-isa].
 Use it as a reference or cheatsheet.
@@ -26,7 +26,7 @@ Use it as a reference or cheatsheet.
 Contributing
 ------------
 
-1. Fork it.
+1. Fork it
 2. Create a branch (git checkout -b my_programs)
 3. Commit your changes (git commit -am "Added sample LC-3 program")
 4. Push to the branch (git push origin my_programs)
