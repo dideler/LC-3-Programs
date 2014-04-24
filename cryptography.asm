@@ -30,11 +30,11 @@ start:
   puts          ; Print message2.
 
   in              ; Read user input into R0.
+  lea r0, newln ; Load address of newline into R0.
   lea r1, neg48   ; Load address of neg48 into R1.
   ldr r1, r1, #0  ; Load contents of neg48 into R1 (R1 now holds -48).
   add r2, r0, r1  ; Subtract 48 from the ASCII value and store in R2.
 
-  lea r0, newln ; Load address of newline into R0.
   puts          ; Print new line.
 
   lea r0, msg3  ; Load address of message3 into R0.
